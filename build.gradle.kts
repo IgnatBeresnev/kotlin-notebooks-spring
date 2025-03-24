@@ -20,6 +20,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
 
     runtimeOnly("org.springframework.boot:spring-boot-devtools")
+    developmentOnly("org.jetbrains.kotlinx:kotlin-jupyter-spring-starter:0.12.0-385")
 
     testImplementation(kotlin("test"))
 }
